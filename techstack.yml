@@ -1,0 +1,617 @@
+repo_name: cjlvscjl/dumi
+report_id: ff4539439cfc38f5df560254028a802d
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-02T12:59:35+00:00'
+requested_by: PeachScript
+provider: github
+branch: master
+detected_tools_count: 49
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-01 03:49:32.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/examples/mobile/package.json
+  detection_source: examples/mobile/package.json
+  last_updated_by: 聪小陈
+  last_updated_on: 2022-11-18 11:07:55.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-01 03:49:32.000000000 Z
+- name: CodeSandbox
+  description: Online playground for React
+  website_url: https://codesandbox.io/
+  open_source: true
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Cloud IDE
+  image_url: https://img.stackshare.io/service/7434/Screen_20Shot_202017-08-11_20at_205.55.05_20AM.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: wyy
+  last_updated_on: 2022-11-03 09:38:44.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-01 03:49:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Peach
+  last_updated_on: 2023-03-27 11:18:24.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-01 03:49:32.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-11-22 03:32:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/cjlvscjl/dumi
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: "@types/pluralize"
+  description: TypeScript definitions for pluralize
+  package_url: https://www.npmjs.com/@types/pluralize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17552/default_5133f19ba634118175f1e1bf0c5b91999134bf79.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 聪小陈
+  last_updated_on: 2022-12-15 03:21:08.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: enhanced-resolve
+  description: Offers a async require.resolve function
+  package_url: https://www.npmjs.com/enhanced-resolve
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17890/default_d8903d76dded6915fe2da53370802097e7af05c2.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: hosted-git-info
+  description: Provides metadata and conversions from repository urls for Github
+  package_url: https://www.npmjs.com/hosted-git-info
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18382/default_0008ec7bce131ce74614376dd8fedbce07bc8742.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: html-to-text
+  description: Advanced html to plain text converter
+  package_url: https://www.npmjs.com/html-to-text
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18417/default_866295ec9b57ad977c956d0fed2e144aaca6c4a0.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-09-07 07:29:47.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: lodash.throttle
+  description: The lodash method `_.throttle` exported as a module
+  package_url: https://www.npmjs.com/lodash.throttle
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16643/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: wyy
+  last_updated_on: 2022-10-27 04:07:24.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: afc163
+  last_updated_on: 2023-05-11 06:47:54.000000000 Z
+- name: pluralize
+  description: Pluralize and singularize any word
+  package_url: https://www.npmjs.com/pluralize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16498/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-11-22 03:32:52.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-09-07 07:29:47.000000000 Z
+- name: react-copy-to-clipboard
+  description: Copy-to-clipboard React component
+  package_url: https://www.npmjs.com/react-copy-to-clipboard
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: react-error-boundary
+  description: Simple reusable React error boundary component
+  package_url: https://www.npmjs.com/react-error-boundary
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: react-intl
+  description: Internationalize React apps
+  package_url: https://www.npmjs.com/react-intl
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: rehype-stringify
+  description: Rehype plugin to serialize HTML
+  package_url: https://www.npmjs.com/rehype-stringify
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: remark-rehype
+  description: Remark plugin that turns markdown into HTML to support rehype
+  package_url: https://www.npmjs.com/remark-rehype
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-08-09 13:23:24.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-03 12:50:16.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peach
+  last_updated_on: 2023-10-12 09:03:17.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/cjlvscjl/dumi/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: PeachScript
+  last_updated_on: 2022-08-01 03:49:32.000000000 Z
